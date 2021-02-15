@@ -1,0 +1,15 @@
+/*
+* Hazirlayanlar:
+* M.Fatih Keskin
+* Notlar:
+* ELM235 2020 Bahar Lab3 - Problem 1 Testbench
+* Y = NOT A and B denkleminin simulasyonu
+* Bütün olasi girislere göre çikislar gözlemlenir.
+*
+*/
+module lab3_MFK_p1 (
+input logic a, b,
+output logic y
+);
+ assign y = ~a & b;
+endmodule
